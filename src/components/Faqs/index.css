@@ -1,0 +1,23 @@
+/* Write your code here. */
+.bg-container {
+  padding: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-head {
+  color: #cb8805;
+  font-size: 40px;
+}
+
+.faqs-container {
+  padding-left: 0px;
+}
+
+@media (max-width: 767px) {
+  .bg-container {
+    padding: 10px;
+  }
+}
